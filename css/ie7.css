@@ -1,0 +1,54 @@
+#sidebar DIV {
+	LEFT: 20px; MARGIN: 0px; WIDTH: 220px; POSITION: absolute; TOP: 200px
+}
+#info INPUT.confirm {
+	FONT-SIZE: 0px; WIDTH: 126px; COLOR: #f9f7f3; TEXT-INDENT: 0px; TEXT-ALIGN: right
+}
+#create #create_account INPUT.continue {
+	FONT-SIZE: 0px; WIDTH: 126px; COLOR: #f9f7f3; TEXT-INDENT: 0px; BACKGROUND-REPEAT: no-repeat! important; TEXT-ALIGN: right
+}
+#contact #contact_us INPUT#submit {
+	FONT-SIZE: 0px; WIDTH: 129px; COLOR: #f9f7f3; TEXT-INDENT: 0px; BACKGROUND-REPEAT: no-repeat! important; TEXT-ALIGN: right
+}
+#main #support #settings DIV.setting INPUT.confirm {
+	FONT-SIZE: 0px; WIDTH: 130px; COLOR: #f9f7f3; TEXT-INDENT: 0px; BACKGROUND-REPEAT: no-repeat! important; TEXT-ALIGN: right
+}
+#main #support #settings DIV.setting INPUT.cancel {
+	FONT-SIZE: 0px; WIDTH: 130px; COLOR: #f9f7f3; TEXT-INDENT: 0px; BACKGROUND-REPEAT: no-repeat! important; TEXT-ALIGN: right
+}
+#main #support #settings DIV.setting INPUT#submit {
+	FONT-SIZE: 0px; WIDTH: 130px; COLOR: #f9f7f3; TEXT-INDENT: 0px; BACKGROUND-REPEAT: no-repeat! important; TEXT-ALIGN: right
+}
+#main #support TABLE TBODY TR TD A.del {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 1px; PADDING-LEFT: 15px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#main #support TABLE TBODY TR TD A.rename {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 1px; PADDING-LEFT: 15px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#main #support #popular UL#poplist #loader {
+	DISPLAY: block; FLOAT: left
+}
+.ajaxLoader#loader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#create_account INPUT#login {
+	FONT-SIZE: 0px; WIDTH: 94px; COLOR: #f9f7f3; TEXT-INDENT: 0px; BACKGROUND-REPEAT: no-repeat! important; TEXT-ALIGN: right
+}
+#create_account INPUT#login:hover {
+	BACKGROUND-POSITION: 50% bottom
+}
+#main #support TABLE TBODY TD {
+	BORDER-RIGHT: #dad6ce 1px solid; BORDER-TOP: #dad6ce 1px; BACKGROUND-IMAGE: none; BORDER-LEFT: #dad6ce 1px solid; BORDER-BOTTOM: #dad6ce 1px solid
+}
+#main #tables TABLE TBODY TD {
+	BORDER-RIGHT: #dad6ce 1px solid; BORDER-TOP: #dad6ce 1px; BACKGROUND-IMAGE: none; BORDER-LEFT: #dad6ce 1px solid; BORDER-BOTTOM: #dad6ce 1px solid
+}
+#create #create_account #amount {
+	MARGIN-BOTTOM: 5px! important
+}
+#main #support #settings DIV.setting INPUT#amount {
+	MARGIN-BOTTOM: 5px! important
+}
+#main #support #settings DIV.setting #amountslider {
+	MARGIN-TOP: 10px! important
+}

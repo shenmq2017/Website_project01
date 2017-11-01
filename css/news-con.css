@@ -1,0 +1,141 @@
+.banner{
+	background: url(../images/news-banner.png);
+	background-position: 75% 50%;
+	background-size: cover;
+	height: 400px;
+}
+.banner-main{
+	position: absolute;
+	right: 0;
+	top: 120px;
+	font-size: 26px;
+	width: 420px;
+	color: #333;
+	text-align: center;
+}
+.banner-main p{
+	color: #666;
+	font-size: 26px;
+	margin-top: 15px;
+	margin-right: 10px;
+	text-align: right;
+}
+.left{
+	position: absolute;
+	top: -60px;
+	width: 240px;
+}
+.left-con{
+	display: block;
+	height: 90px;
+	background: #f2f2f2;
+	line-height: 90px;
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+}
+.left-con:hover{
+	background: #0370a8;
+	color: #fff;
+}
+.left-1,.left-1:hover{
+	background: #101012;
+	color: #fff;
+	height: 120px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+.selected{
+	background: #0370a8;
+	color: #fff;
+}
+.right{
+	float: right;
+	width: calc(90% - 240px);
+	margin-top: 20px;
+	min-height: 500px;
+	position: relative;
+}
+.right-p a{
+	color: #999;
+	font-size: 15px;
+}
+.right-main{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.right-main p{
+	text-indent: 2em;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+.right-h33{
+	margin-top: 50px;
+}
+@media screen and (max-width: 992px){
+	.left{
+		width: 20%;
+	}
+	.left-con{
+		font-size: 13px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.left-1{
+		height: 120px;
+		line-height: 20px;
+	}
+	.right{
+		width: 70%;
+	}
+	.banner-main h1{
+		font-size: 1.5em;
+		text-align: right;
+	}
+	.right-h33{
+		margin-top: 100px;
+	}
+}
+@media screen and (max-width: 450px){
+	.banner{
+		height: 200px;
+		margin-top: 70px;
+	}
+	.banner-main{
+		position: absolute;
+		top: 40px;
+	}
+	.left{
+		display: none;
+	}
+	.right{
+		width: 99%;
+	}
+	.right-p a{
+		font-size: 12px;
+	}
+	.right h3{
+		font-size: 18px;
+		text-align: center;
+	}
+	.right-main{
+		margin-top: 20px;
+	}
+	.right-main p{
+		font-size: 12px;
+		margin-bottom: 14px;
+	}
+	.right-p{
+		position: absolute;
+		left: 0;
+	}
+	.right-top-1 h1{
+		font-size: 22px;
+	}
+	.right-top-1 h4{
+		font-size: 14px;
+	}
+	.right-h33{
+		margin-top: 70px;
+	}
+}

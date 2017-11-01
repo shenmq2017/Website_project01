@@ -1,0 +1,203 @@
+.banner{
+	background: url(../images/banner-contact.png);
+	background-position: 72% 50%;
+	background-size: cover;
+	height: 400px;
+}
+.banner-main{
+	position: absolute;
+	right: 0;
+	top: 120px;
+	font-size: 30px;
+	width: 420px;
+	color: #333;
+	text-align: center;
+}
+.banner-main p{
+	color: #666;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-right: 10px;
+	text-align: right;
+}
+.left{
+	position: absolute;
+	top: -60px;
+	width: 240px;
+}
+.left-con{
+	display: block;
+	height: 90px;
+	background: #f2f2f2;
+	line-height: 90px;
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+}
+.left-con:hover{
+	background: #0370a8;
+	color: #fff;
+}
+.left-1,.left-1:hover{
+	background: #101012;
+	color: #fff;
+	height: 120px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+.selected{
+	background: #0370a8;
+	color: #fff;
+}
+.right{
+	float: right;
+	width: calc(90% - 240px);
+	margin-top: 20px;
+	min-height: 500px;
+	position: relative;
+}
+.right-p a{
+	color: #999;
+	font-size: 14px;
+}
+.right-main{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.right-main p{
+	font-size: 16px;
+}
+.right-top-1{
+	width: 33.33%;
+	outline: 1px solid #e5e5e5;
+	float: left;
+	height: 360px;
+	padding: 160px 10px;
+	color: #999;
+	text-align: center;
+	position: relative;
+}
+.right-top-1 img{
+	width:80px;
+	position: absolute;
+	top: 50px;
+	left: calc(50% - 40px);
+}
+.right-top-1 h1{
+	margin-bottom: 26px;
+}
+.right-top-2{
+	outline: none;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.right-top-2 img{
+	top: 60px;
+}
+.right-top-3 img{
+	top: 80px;
+}
+table{
+	width: 100%;
+	margin-top: 40px;
+}
+.form-table2{
+	display: none;
+}
+.form-table1 td:nth-child(1),.form-table1 td:nth-child(3){
+	width: 45%;
+	padding-bottom: 20px;
+}
+.form-table2 td{
+	width: 100%;
+	padding-bottom: 10px;
+}
+table input,table textarea,table button,.form-table2 input,.form-table2 textarea,.form-table2 button{
+	width: 100%;
+	height: 40px;
+	background: #f9f9f9;
+	outline: 1px solid #e5e5e5;
+	padding-left: 10px;
+	border: none;
+}
+.form-table2 input,.form-table2 textarea,.form-table2 button{
+	margin-bottom: 10px;
+}
+table button,.form-table2 button{
+	background: transparent;
+}
+table textarea,.form-table2 textarea{
+	height: 140px;
+}
+@media screen and (max-width: 992px){
+	.left{
+		width: 30%;
+		font-size: 20px;
+	}
+	.right{
+		width: 60%;
+	}
+	.banner-main h1{
+		font-size: 1.5em;
+		text-align: right;
+	}
+	.right-top-1{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 110px 10px;
+		height: 240px;
+		outline: 1px solid #e5e5e5;
+		border:none;
+	}
+	.right-top .right-top-1 img{
+		position: absolute;
+		top: 20px;
+		left: calc(50% - 40px);
+	}
+	.form-table1 {
+		display: none;
+	}
+	.form-table2 {
+		display: block;
+	}
+}
+@media screen and (max-width: 450px){
+	.banner{
+		height: 200px;
+		margin-top: 70px;
+	}
+	.banner-main{
+		position: absolute;
+		top: 40px;
+	}
+	.left{
+		display: none;
+	}
+	.right{
+		width: 99%;
+	}
+	.right-p a{
+		font-size: 12px;
+	}
+	.right h3{
+		font-size: 18px;
+		text-align: center;
+	}
+	.right-main{
+		margin-top: 20px;
+	}
+	.right-main p{
+		font-size: 12px;
+	}
+	.right-p{
+		position: absolute;
+		left: 0;
+	}
+	.right-top-1 h1{
+		font-size: 22px;
+	}
+	.right-top-1 h4{
+		font-size: 14px;
+	}
+}

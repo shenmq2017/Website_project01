@@ -1,0 +1,169 @@
+.banner{
+	background: url(../images/case-con-banner.png);
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+.main{
+	margin-top: 20px;
+	text-align: center;
+}
+.right-p{
+	float: right;
+}
+.right-p a{
+	color: #999;
+	font-size: 15px;
+}
+.con{
+	text-align: left;
+	width: 100%;
+	margin-bottom: 120px;
+}
+.con-p{
+	color: #01476d;
+	font-size: 26px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.con-p span{
+	padding: 22px 20px 2px;
+	border-left: 4px solid #01476d;
+	font-size: 0;
+}
+.content{
+	width: calc(100% - 88px);
+	margin-left: 44px;
+	font-size: 15px;
+}
+.content p{
+	font-size: 18px;
+}
+.two{
+	margin-bottom: 80px;
+}
+.two p{
+	line-height: 1em;
+	padding-left: 2.2em;
+}
+.caption{
+	color: #666;
+	font-weight: bolder;
+}
+.two h4{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.two-con{
+	margin-bottom: 40px;
+}
+.right-fixed{
+	height: 400px;
+	width: 50px;
+	display: block;
+	background: #61acd3;
+	text-align: center;
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+}
+.right-fixed:hover{
+	color: #fff;
+}
+.outer{
+	width: 48px;
+	height: 46px;
+	border: 1px solid #fff;
+	padding-top: 5px;
+	padding-left: 3px;
+	margin-bottom: 15px;
+}
+.right-fixed img{
+	width: 40px;
+}
+.right-fixed p{
+	font-size: 18px;
+	line-height: 14px;
+}
+.solu-h3{
+	margin-top: 50px;
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 60px;
+}
+@media screen and (max-width: 450px){
+	.banner{
+		height: 200px;
+	}
+	.banner-main{
+		position: absolute;
+		top: 40px;
+	}
+	.banner-main{
+		position: absolute;
+		top: 40px;
+	}
+	.right-p{
+		float: left;
+	}
+	.right-p a{
+		font-size: 12px;
+	}
+	.main-h3{
+		font-size: 20px;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	.con-p{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.con-p span{
+		padding: 16px 10px 2px;
+		border-left: 4px solid #01476d;
+		font-size: 0;
+	}
+	.table3{
+		font-size: 13px;
+	}
+	.table3 tr{
+		height: 30px;
+	}
+	.con{
+		margin-bottom: 60px;
+	}
+	.content{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.content p{
+		line-height: 20px;
+	}
+	.a-span{
+		font-size: 12px;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		text-align: right;
+	}
+	.come-back{
+		font-size: 12px;
+	}
+	.solu-h3{
+		font-size: 22px;
+		margin-bottom: 30px;
+	}
+	.content p{
+		font-size: 14px;
+	}
+	.two h4{
+		font-size: 16px;
+	}
+	.two{
+		margin-bottom: 40px;
+	}
+	.two-con{
+		margin-bottom: 20px;
+	}
+}
